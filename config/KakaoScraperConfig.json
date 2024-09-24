@@ -1,0 +1,26 @@
+{
+    "KakaoScraper" : {
+        "constructor" : {
+            "driver_path"   : "",
+            "max_wait_time" : 30
+        },
+        "kakao_scraper_settings_method" : {
+            "output_file_name" : "{}_카카오 친구추가 정보.xlsx",
+            "sql_type"         : "postgresql",
+            "server_name"      : "MT2_Datalake",
+            "hostname"         : "localhost",
+            "table_name"       : "99.KAKAO_CHANNEL_FRIEND_COUNT",
+            "schema_name"      : "02.AP_PHASE_01",
+            "kakao_pages_dict" : {
+                "헤라"       : "https://pf.kakao.com/_dbxjxnK",
+                "설화수"     : "https://pf.kakao.com/_mxehQxb",
+                "입생로랑"   : "https://pf.kakao.com/_gexeFxl",
+                "나스"       : "https://pf.kakao.com/_skAHj",
+                "맥"         : "https://pf.kakao.com/_RMhXT",
+                "랑콤"       : "https://pf.kakao.com/_rAyAxl",
+                "라메르"     : "https://pf.kakao.com/_xetxcwj",
+                "에스티로더" : "https://pf.kakao.com/_xlzxidE"
+            }
+        }
+    }
+}
